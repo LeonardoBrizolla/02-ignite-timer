@@ -5,12 +5,12 @@ import { GlobalStyle } from './styles/global'
 import { defaultTheme } from './styles/theme/default'
 
 export function App() {
-  return (
-    <ThemeProvider theme={defaultTheme}>
-      <BrowserRouter>
-        <Router />
-      </BrowserRouter>
-      <GlobalStyle />
-    </ThemeProvider>
-  )
+	return (
+		<ThemeProvider theme={defaultTheme}>
+			<BrowserRouter>
+				<Router />
+			</BrowserRouter>
+			<GlobalStyle />
+		</ThemeProvider>
+	)
 }
